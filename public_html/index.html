@@ -1,0 +1,153 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>ctbillet</title>
+    <meta name="description" content="">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/semantic.min.css">
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+    <body>
+    <div class="ui grid">
+        <div class="computer tablet only row">
+            <div class="ui inverted red fixed menu navbar page grid">
+                <a href="" class="brand item">ctbillet</a>
+                <div class="right menu">
+                    <!--
+                    {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
+                        <a class="ui dropdown item">{{ 'layout.logged_in_as'|trans({'%username%': app.user.username}, 'FOSUserBundle') }} 
+                            <i class="dropdown icon"></i>
+                            <div class="menu">
+                                <div class="item">My account</div>
+                                <div class="ui divider"></div>
+                                <div class="item"><a  href="{{ path('fos_user_security_logout') }}">{{ 'layout.logout'|trans({}, 'FOSUserBundle') }}</a></div>
+                            </div>
+                        </a>
+                    {% else %}
+                        <a class="active item" href="{{ path('fos_user_security_login') }}">{{ 'layout.login'|trans({}, 'FOSUserBundle') }}</a>
+                    {% endif %}
+                    -->
+                    <a class="active item" href="#">Log In</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="ui page grid main">
+        <!-- ici le tabulation  -->
+        <div class="ui three item menu">
+          <a class="active item">Billets</a>
+          <a class="item">Enregistrement</a>
+          <a class="item">Aperçu</a>
+          <a class="item">Paiement</a>
+          <a class="item">Confirmation</a>
+        </div>        
+        <!-- ceci est le message description -->
+        <div class="row">
+             <div class="column padding-reset">
+                 <div class="ui large message">
+                    <div class="ui huge header">AFT Fed Cup 2017&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Belgique - Botswana</div>
+                    <div class="ui medium header">Du 5 mars au 7 mars 2017</div>
+                    <p>Sur ce site web vous pouvez acheter des billets officiels pour AFT FED CUP 2017. Votre commande sera traitée par CountryTickets.eu.</p>
+                    <div class="ui header">
+                        <i class="calendar icon"></i>
+                        <div class="content">
+                            Date de l'événement:
+                            <div class="ui sub header">5  - 7 mars 2017</div>
+                        </div>
+                    </div>         
+                    <div class="ui medium header">
+                        <i class="marker icon"></i>
+                        <div class="content">
+                          Lieu de l'événement: 
+                          <div class="ui medium sub header">Country Hall de Liège, rue de l'église 25 4444 Angleur</div>
+                        </div>
+                    </div>         
+                </div>
+             </div>
+         </div>
+        <!-- END message desc -->
+
+        <!-- ici message erreurs -->
+        <!-- END message erreurs -->
+
+
+        
+        <!-- ici choix du bloc -->
+        <h2 class="ui huge header">
+            Choisissez votre bloc
+            <div class="sub header">Cliquez sur le bloc que vous voulez choisir.</div>
+        </h2>
+        <div class="row">
+        <div class="column padding-reset">
+            <img class="ui centered image" src="img/Salle_600.jpg" usemap="#map-cd2016_600" />
+            <!-- ********************************* MAP **********************-->
+            <map name="map-cd2016_600" id="map-cd2016_600">
+            <area id="bloc_a" alt="" title="" href="#" shape="rect" coords="155,266,209,345" />
+            <area id="bloc_b" alt="" title="" href="#" shape="rect" coords="158,223,207,260" />
+            <area id="bloc_c" alt="" title="" href="#" shape="rect" coords="160,181,205,218" />
+            <area id="bloc_d" alt="" title="" href="#" shape="rect" coords="156,91,209,175" />
+            <area id="bloc_e" alt="" title="" href="#" shape="rect" coords="218,180,245,221" />
+            <area id="bloc_f" alt="" title="" href="#" shape="rect" coords="217,265,244,324" />
+            <area id="bloc_g" alt="" title="" href="#" shape="rect" coords="153,61,228,85" />
+            <area id="bloc_h" alt="" title="" href="#" shape="rect" coords="229,60,304,84" />
+            <area id="bloc_i" alt="" title="" href="#" shape="rect" coords="307,60,382,84" />
+            <area id="bloc_j" alt="" title="" href="#" shape="rect" coords="383,59,458,83" />
+            <area id="bloc_k" alt="" title="" href="#" shape="rect" coords="458,60,533,84" />
+            <area id="bloc_l" alt="" title="" href="#" shape="rect" coords="479,90,533,138" />
+            <area id="bloc_m" alt="" title="" href="#" shape="rect" coords="478,142,532,190" />
+            <area id="bloc_n" alt="" title="" href="#" shape="rect" coords="478,196,532,244" />
+            <area id="bloc_o" alt="" title="" href="#" shape="rect" coords="478,246,532,294" />
+            <area id="bloc_p" alt="" title="" href="#" shape="rect" coords="478,299,532,347" />
+            <area id="bloc_q" alt="" title="" href="#" shape="rect" coords="442,123,472,213" />
+            <area id="bloc_r" alt="" title="" href="#" shape="rect" coords="442,225,472,315" />
+            <area id="bloc_s" alt="" title="" href="#" shape="rect" coords="463,356,526,381" />
+            <area id="bloc_t" alt="" title="" href="#" shape="rect" coords="388,369,437,400" />
+            <area id="bloc_u" alt="" title="" href="#" shape="rect" coords="300,368,387,399" />
+            <area id="bloc_v" alt="" title="" href="#" shape="rect" coords="253,367,302,398" />
+            <area id="bloc_x" alt="" title="" href="#" shape="rect" coords="160,357,220,381" />
+            <area id="bloc_a_sup" alt="" title="" href="#" shape="rect" coords="94,312,130,374" />
+            <area id="bloc_b_sup" alt="" title="" href="#" shape="rect" coords="94,245,130,307" />
+            <area id="bloc_c_sup" alt="" title="" href="#" shape="rect" coords="94,178,130,240" />
+            <area id="bloc_d_sup" alt="" title="" href="#" shape="rect" coords="94,109,130,171" />
+            <area id="bloc_e_sup" alt="" title="" href="#" shape="rect" coords="93,43,129,105" />
+            <area id="bloc_g_sup" alt="" title="" href="#" shape="rect" coords="135,13,214,43" />
+            <area id="bloc_h_sup" alt="" title="" href="#" shape="rect" coords="219,15,298,45" />
+            <area id="bloc_i_sup" alt="" title="" href="#" shape="rect" coords="305,14,384,44" />
+            <area id="bloc_j_sup" alt="" title="" href="#" shape="rect" coords="388,15,467,45" />
+            <area id="bloc_k_sup" alt="" title="" href="#" shape="rect" coords="473,15,552,45" />
+            <area id="bloc_l_sup" alt="" title="" href="#" shape="rect" coords="560,42,592,103" />
+            <area id="bloc_m_sup" alt="" title="" href="#" shape="rect" coords="561,109,593,170" />
+            <area id="bloc_n_sup" alt="" title="" href="#" shape="rect" coords="560,177,592,238" />
+            <area id="bloc_o_sup" alt="" title="" href="#" shape="rect" coords="558,242,590,303" />
+            <area id="bloc_p_sup" alt="" title="" href="#" shape="rect" coords="558,315,590,376" />
+            <area id="bloc_e0" alt="" title="" href="#" shape="rect" coords="217,118,244,177" />
+            <area id="bloc_f0" alt="" title="" href="#" shape="rect" coords="217,222,244,263" />
+            </map>
+            <!-- ************************************************************************-->
+            
+        </div>
+        </div>
+        <!-- END ici choix du bloc -->
+        
+        <!-- ici choisir le produit -->
+        <!-- END choisir le produit -->
+
+        <!-- ici message footer -->
+        <!-- END message footer -->
+
+        <!-- ici bouton footer -->
+        <!-- END bouton footer -->
+
+
+
+    </div>
+    
+    <!-- Javascript -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/semantic.min.js'"></script>
+    <script src="js/main.js"></script>
+        
+    </body>
+</html>
